@@ -106,8 +106,7 @@ p { margin: 0 0 1em; }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 100;
-  background: rgba(245, 243, 236, 0.92);
-  backdrop-filter: blur(8px);
+  background: var(--cream);
   border-bottom: 3px solid var(--ink);
 }
 .header-inner {
@@ -350,4 +349,3 @@ p { margin: 0 0 1em; }
   .trust-strip-inner { grid-template-columns: 1fr 1fr; }
   .hero-actions .btn { width: 100%; }
 }
-
